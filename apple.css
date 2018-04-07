@@ -1,0 +1,151 @@
+.navbar-nav a
+{
+	font-size: 15px;
+	margin-left: 35%;
+}
+
+.navbar-brand i
+{
+	font-size: 20px;
+	margin-top: 9px;
+}
+
+.iphonex-container
+{
+	position: relative;
+	bottom: 20px;
+}
+
+.iphonex-description
+{
+	position: absolute;
+	top: 20%;
+	left: 45%;
+}
+
+.iphonex-description h1
+{
+	font-weight: bold;
+	font-size: 2.5vw;
+}
+
+.iphonex-description h3
+{
+	font-size: 1vw;
+}
+
+#iphonex2
+{
+	display: none;
+}
+
+.iphone8-container
+{
+	position: relative;
+}
+
+.iphone8-description
+{
+	position: absolute;
+	top: 5%;
+	left: 45%;
+}
+
+.iphone8-description h1
+{
+	font-weight: bold;
+	font-size: 2.5vw;
+}
+
+.iphone8-description h3
+{
+	font-size: 1vw;
+}
+
+.ipad-container
+{
+	position: relative;
+	top: 20px;
+}
+
+.ipad-description
+{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+
+.ipad-description h1
+{
+	font-weight: bold;
+	font-size: 2.5vw;
+}
+
+.ipad-description h3
+{
+	font-size: 1vw;
+}
+
+.row
+{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.row:after
+{
+	clear: both;
+}
+
+
+@media screen and (max-width:1660px)
+{
+	.navbar-nav a
+	{
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width:750px)
+{
+	.iphonex-container
+	{
+		margin-top: 50px;
+	}
+	#iphonex2
+	{
+		display: block;
+		margin-top: 20%;
+	}
+	#iphonex1
+	{
+		display: none;
+	}
+	.iphonex-description
+	{
+		position: absolute;
+		top: -10%;
+		left: 40%;
+	}
+	.iphone8-description
+	{
+		position: absolute;
+		top: 5%;
+		left: 40%;
+	}
+	.ipad-description
+	{
+		position: absolute;
+		top: 70%;
+		left: 5%;
+	}
+	.iphonex-description h1,.iphone8-description h1,.ipad-description h1
+	{
+		font-size: 15px;
+	}
+	.iphonex-description h3,.iphone8-description h3,.ipad-description h3
+	{
+		font-size: 10px;
+	}
+
+}
